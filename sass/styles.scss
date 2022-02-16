@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Ubuntu+Mono&display=swap');
+
+$color_gradient: #bb83ff; 
+$image_gradient: linear-gradient(160deg, #bb83ff 0%, #9c24ff 40%, #0c000c 80%);
+
+$color_primary: #490085;
+$color_secondary: #64ffac;
+$color_title: white;
+$color_title2: black;
+$color_text: white;
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+body, html{
+    background-color: black;
+
+}
+// Section "quem sou" e "nav-menu" -----------------
+.quem_sou{
+    background-color: $color_gradient;
+    background-image: $image_gradient;
+    width: 100%;
+    //border-radius: 0px 0px 15% 15%;
+    box-shadow: 0px 10px 50px black;
+
+}
+.quem_sou .container-fluid{
+    //background-color: red;
+    width: 70%;
+    height: 100%;
+    padding: 0.5rem;
+
+}
+.quem_sou .container-fluid .menu{
+    //background-color: blue;
+    width: 100%;
+    padding: 0.5rem;
+
+}
+.menu .navbar .container-fluid{
+    width: 95%;
+    padding: 0.5rem;
+        
+}
+.menu .navbar .container-fluid #logo_fj{
+    height: 11.5rem;
+    
+}
+.menu .navbar .container-fluid .navbar-nav a{
+    color: $color_secondary;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+}
+.menu .navbar .container-fluid .navbar-nav a:hover{
+    background-color: rgba(0, 0, 0, 0.100);
+    border-radius: 5px;
+
+}
+.quem_sou .container-fluid .informacoes{
+    //background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0rem 7rem 0rem;
+  
+}
+.quem_sou .container-fluid .infos{
+    //background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2rem 0 1rem;
+
+}
+.infos .title h2{
+    color: $color_secondary;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+.infos .text p{
+    color: $color_secondary;
+    padding: 0.5rem;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.quem_sou .container-fluid .my_img{
+    padding: 0.5rem 1rem 0 2rem;
+
+}
+.my_img img{
+    height: 26rem;
+    
+}
+
+// Section "my-tools" ---------------------------
+.my_tools{
+    background-color: rgba(0, 0, 0, 0.100);
+    width: 100%;
+
+}
+.my_tools .container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+    padding: 3rem 0rem 6rem 0rem;
+
+}
+.my_tools .container-fluid .title{
+    padding-bottom: 1.5rem;
+
+}
+.my_tools .container-fluid .title h3{
+    color: $color_title2;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+.my_tools .container-fluid .tecnologias{
+    //background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.my_tools .container-fluid div{
+    padding: 0.5rem;
+
+}
+.my_tools .container-fluid div .img_tools img{
+    height: 6.5rem;
+    transition: all 1s;
+
+}
+.my_tools .container-fluid div .img_tools img:hover{
+    transform: scale(1.3, 1.3);
+    
+}
