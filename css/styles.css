@@ -14,7 +14,7 @@ body, html {
   background-color: #bb83ff;
   background-image: linear-gradient(160deg, #bb83ff 0%, #9c24ff 20%, #0c000c 50%);
   width: 100%;
-  border-bottom: 0.2rem solid #bb83ff;
+  border-bottom: 0.1rem solid #bb83ff;
 }
 
 .quem_sou .container-fluid {
@@ -92,8 +92,7 @@ body, html {
 
 /* Section "my-tools" ---------------------------*/
 .my_tools {
-  background-color: #bb83ff;
-  background-image: linear-gradient(10deg, #bb83ff 0%, #9c24ff 20%, #0c000c 50%);
+  background-color: black;
   width: 100%;
 }
 
@@ -113,11 +112,11 @@ body, html {
 .my_tools .container-fluid .title h3 {
   color: #64ffac;
   font-family: "Ubuntu Mono", monospace;
-  padding: 0rem 0.7rem 0.5rem 0.7rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   font-size: 2.5rem;
   font-weight: 600;
-  border: 2px solid #64ffac;
-  border-top: none;
+  border: 1px solid #64ffac;
+  box-shadow: 2px 2px 10px white;
 }
 
 .my_tools .container-fluid .tecnologias {
@@ -138,6 +137,55 @@ body, html {
 
 .my_tools .container-fluid div .img_tools img:hover {
   transform: scale(1.3, 1.3);
+}
+
+/* Section "que_faco" ---------------------------*/
+.que_faco {
+  background-color: black;
+  width: 100%;
+  margin-top: -1px;
+}
+
+.que_faco .container-fluid {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0rem 6rem 0rem;
+}
+
+.que_faco .container-fluid .title {
+  padding-bottom: 1.5rem;
+}
+
+.que_faco .container-fluid .title h3 {
+  color: #64ffac;
+  font-family: "Ubuntu Mono", monospace;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  border: 1px solid #64ffac;
+  box-shadow: 2px 2px 10px white;
+}
+
+.que_faco .container-fluid .cards_services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1rem 0rem 1rem 0rem;
+}
+.que_faco .container-fluid .cards_services .card {
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 3px 3px 1px #64ffac;
+  width: 20rem;
+}
+.que_faco .container-fluid .cards_services p {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
 }
 
 /*Responsividade------------------------------------*/
@@ -188,6 +236,19 @@ body, html {
 
   .my_tools .container-fluid div .img_tools img:hover {
     transform: scale(1.3, 1.3);
+  }
+
+  /* Section "que_faco" ---------------------------*/
+  .que_faco .container-fluid .title h3 {
+    font-size: 2.3rem;
+  }
+
+  .que_faco .container-fluid .cards_services .card {
+    padding: 1.3rem;
+    margin: 0.3rem;
+  }
+  .que_faco .container-fluid .cards_services p {
+    font-size: 1.4rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -252,6 +313,25 @@ body, html {
 
   .my_tools .container-fluid div .img_tools img {
     height: 4.5rem;
+  }
+
+  /* Section "que_faco" ---------------------------*/
+  .que_faco .container-fluid .title h3 {
+    font-size: 2.2rem;
+  }
+
+  .que_faco .container-fluid .cards_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .que_faco .container-fluid .cards_services .card {
+    width: 60%;
+    margin-bottom: 1.5rem;
+  }
+  .que_faco .container-fluid .cards_services p {
+    font-size: 1.4rem;
   }
 }
 
