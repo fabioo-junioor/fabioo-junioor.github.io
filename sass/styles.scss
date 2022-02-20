@@ -134,9 +134,9 @@ body, html{
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-size: 2.5rem;
     font-weight: 600;
-    border: 1px solid $color_secondary;
-    //border-top: none;
-    box-shadow: 2px 2px 10px white;
+    background-color: rgb(80, 80, 80);
+    box-shadow: 3px 3px 2px white;
+    border-radius: 5px;
 
 }
 .my_tools .container-fluid .tecnologias{
@@ -153,7 +153,7 @@ body, html{
 }
 .my_tools .container-fluid div .img_tools img{
     height: 6.5rem;
-    transition: all 1s;
+    transition: all 0.7s;
 
 }
 .my_tools .container-fluid div .img_tools img:hover{
@@ -187,9 +187,10 @@ body, html{
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-size: 2.5rem;
     font-weight: 600;
-    border: 1px solid $color_secondary;
-    //border-top: none;
-    box-shadow: 2px 2px 10px white;
+    //border: 1px solid $color_secondary;
+    background-color: rgb(80, 80, 80);
+    box-shadow: 3px 3px 2px white;
+    border-radius: 5px;
 
 }
 .que_faco .container-fluid .cards_services{
@@ -200,21 +201,90 @@ body, html{
     padding: 1rem 0rem 1rem 0rem;
 
     .card{
-        background-color: white;
+        background-color: rgb(80, 80, 80);
         padding: 1.5rem;
-        box-shadow: 3px 3px 1px $color_secondary;
+        box-shadow: 3px 3px 1px white;
         width: 20rem;
+        border-radius: 5px;
 
     }
     p{
         font-family: 'Ubuntu Mono', monospace;
         font-size: 1.5rem;
         text-align: center;
-        color: $color_title2;
+        color: $color_title;
 
     }
 
 }
+
+/* Section "rodapé" ---------------------------*/
+.rodape{
+    background-color: $color_gradient;
+    background-image: linear-gradient(10deg, #bb83ff 0%, #9c24ff 10%, #0c000c 80%);
+    width: 100%;
+    border-top: 0.1rem solid $color_gradient;
+    
+    .container-fluid{
+        width: 95%;
+        padding: 10rem 0rem 0rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .dados{
+            padding: 0.1rem;
+            p{
+                color: $color_title;
+                font-family: 'Ubuntu Mono', monospace;
+                font-size: 1.2rem;
+                //border-bottom: 2px solid rgba(255, 255, 255, 0.500);
+
+                span{
+                    font-weight: 600;
+                    font-size: 1.3rem;
+
+                }                
+            }
+        }
+
+        .social{    
+            display: flex;
+
+            div{
+                padding: 0.2rem 1.2rem 4rem 1.2rem;
+                
+            }
+            img{
+                height: 4.3rem;
+                background-color: rgba(255, 255, 255, 0.400);
+                border-radius: 5px;
+                padding: 0.3rem;
+                transition: all 0.7s;
+                
+
+            }
+            img:hover{
+                transform: scale(1.2, 1.2);                
+
+            }
+        }
+
+        .desenvolvido{
+            border-top: 3px solid white;
+            padding: 0.5rem 0rem 0rem 0rem;
+        
+            p{
+                color: $color_title;
+                font-family: 'Ubuntu Mono', monospace;
+                font-size: 1rem;
+
+            }
+        }
+    }
+
+}
+
 
 /*Responsividade------------------------------------*/
 @media screen and (max-width: 992px){
