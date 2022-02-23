@@ -1,1 +1,1 @@
-//window.alert("PORTIFÓLIO EM DESENVOLVIMENTO!!")
+window.alert("PORTIFÓLIO EM DESENVOLVIMENTO!!")
