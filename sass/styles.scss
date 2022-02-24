@@ -144,17 +144,32 @@ body, html{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 20%;
+    width: 100%;
+    
+}
+.my_tools .container-fluid .tecnologias p{
+    color: $color_title;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    filter: drop-shadow(0px 0px 5px $color_title);
 
 }
-.tecnologias #carouselExampleIndicators{
+.tecnologias .tools_superior, .tools_inferior{
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
 
 }
-.my_tools .tecnologias .carousel-inner img{
-    height: 18rem;
-    width: 10rem;
-    padding: 0rem 0rem 3rem 0rem;
+.tecnologias .tools_superior div, .tools_inferior div{
+    padding: 0.5rem;
+    border: 2px solid white;
+    border-radius: 5px 30px;
+
+}
+.my_tools .tecnologias img{
+    height: 9rem;
+    padding: 0.5rem;
 
 }
 
@@ -393,8 +408,27 @@ body, html{
             
     }
     .my_tools .container-fluid .tecnologias{
-        width: 30%;
-    
+        width: 95%;
+
+    }
+    .tecnologias .tools_superior, .tools_inferior{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .tecnologias .tools_superior div, .tools_inferior div{
+        padding: 0.4rem;
+        
+    }
+    .my_tools .container-fluid .tecnologias p{
+        font-size: 1.1rem;
+            
+    }
+    .my_tools .tecnologias img{
+        height: 5rem;
+        padding: 0.3rem;
+
     }
 
     /* Section "que_faco" ---------------------------*/
@@ -465,7 +499,7 @@ body, html{
     }
     /* Section "my-tools" ---------------------------*/
     .my_tools .container-fluid{
-        width: 90%;
+        width: 95%;
     
     }
     .my_tools .container-fluid .title h3{
@@ -473,8 +507,31 @@ body, html{
            
     }
     .my_tools .container-fluid .tecnologias{
-        width: 35%;
-    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .tecnologias .tools_superior, .tools_inferior{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .tecnologias .tools_superior div, .tools_inferior div{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0.2rem;
+
+    }
+    .my_tools .container-fluid .tecnologias p{
+        font-size: 1rem;
+        
+    }
+    .my_tools .tecnologias img{
+        height: 5rem;
+        padding: 0.3rem;
+
     }
     
     /* Section "que_faco" ---------------------------*/
