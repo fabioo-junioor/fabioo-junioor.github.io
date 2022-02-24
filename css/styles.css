@@ -37,7 +37,8 @@ body, html {
 }
 
 .menu .navbar .container-fluid #logo_fj {
-  height: 11.5rem;
+  height: 10.5rem;
+  filter: drop-shadow(2px 2px 3px white);
 }
 
 .menu .navbar .container-fluid .navbar-nav a {
@@ -49,8 +50,8 @@ body, html {
 }
 
 .menu .navbar .container-fluid .navbar-nav a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  filter: drop-shadow(2px 2px 4px white);
 }
 
 .quem_sou .container-fluid .informacoes {
@@ -74,6 +75,7 @@ body, html {
   font-size: 3rem;
   font-weight: 600;
   border-bottom: 0.2rem solid #64ffac;
+  filter: drop-shadow(2px 2px 2px black);
 }
 
 .infos .text p {
@@ -87,6 +89,7 @@ body, html {
 
 .quem_sou .container-fluid .my_img {
   padding: 0.5rem 1rem 0 2rem;
+  filter: drop-shadow(0px 0px 3px black);
 }
 
 .my_img img {
@@ -118,8 +121,8 @@ body, html {
   padding: 0.5rem 1rem 0.5rem 1rem;
   font-size: 2.5rem;
   font-weight: 600;
-  background-color: #505050;
-  box-shadow: 6px -6px 1px white;
+  background-color: #6b03c0;
+  box-shadow: 6px -6px 1px #64ffac;
   border-radius: 3px;
 }
 
@@ -180,8 +183,8 @@ body, html {
   padding: 0.5rem 1rem 0.5rem 1rem;
   font-size: 2.5rem;
   font-weight: 600;
-  background-color: #505050;
-  box-shadow: 6px -6px 1px white;
+  background-color: #6b03c0;
+  box-shadow: 6px -6px 1px #64ffac;
   border-radius: 3px;
 }
 
@@ -204,6 +207,7 @@ body, html {
   font-size: 1.5rem;
   text-align: center;
   color: white;
+  filter: drop-shadow(2px 2px 4px black);
 }
 
 /* Section "contato" ---------------------------*/
@@ -280,7 +284,7 @@ body, html {
 /* Section "rodapé" ---------------------------*/
 .rodape {
   background-color: #bb83ff;
-  background-image: linear-gradient(10deg, #bb83ff 0%, #9c24ff 10%, #0c000c 80%);
+  background-image: linear-gradient(10deg, #bb83ff 0%, #9c24ff 0%, #0c000c 80%);
   width: 100%;
   border-top: 0.1rem solid #bb83ff;
 }
@@ -298,10 +302,12 @@ body, html {
   color: white;
   font-family: "Ubuntu Mono", monospace;
   font-size: 1.2rem;
+  filter: drop-shadow(2px 2px 2px black);
 }
 .rodape .container-fluid .dados p span {
   font-weight: 600;
   font-size: 1.3rem;
+  filter: drop-shadow(2px 2px 2px black);
 }
 .rodape .container-fluid .social {
   display: flex;
@@ -311,13 +317,14 @@ body, html {
 }
 .rodape .container-fluid .social img {
   height: 4.3rem;
-  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 5px;
   padding: 0.3rem;
   transition: all 0.7s;
+  filter: drop-shadow(2px 2px 4px white);
 }
 .rodape .container-fluid .social img:hover {
   transform: scale(1.2, 1.2);
+  filter: drop-shadow(2px 2px 3px white);
 }
 .rodape .container-fluid .desenvolvido {
   border-top: 3px solid white;
@@ -327,6 +334,7 @@ body, html {
   color: white;
   font-family: "Ubuntu Mono", monospace;
   font-size: 1rem;
+  filter: drop-shadow(2px 2px 2px black);
 }
 
 /*Responsividade------------------------------------*/
