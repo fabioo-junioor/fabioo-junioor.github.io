@@ -4,7 +4,7 @@ $color_gradient: #bb83ff;
 $image_gradient: linear-gradient(160deg, #bb83ff 0%, #9c24ff 20%, #0c000c 50%);
 $image_gradient2: linear-gradient(10deg, #bb83ff 0%, #9c24ff 20%, #0c000c 50%);
 
-$color_primary: #490085;
+$color_primary: #6b03c0;
 $color_secondary: #64ffac;
 $color_title: white;
 $color_title2: black;
@@ -25,28 +25,29 @@ body, html{
 }
 /* Section "quem sou" e "nav-menu" -----------------*/
 .quem_sou{
-    background-color: $color_gradient;
-    background-image: $image_gradient;
+    background-color: black;
     width: 100%;
-    border-bottom: 0.1rem solid $color_gradient;
-
+    //border-bottom: 0.1rem solid $color_gradient;
+    //margin-bottom: -10px;
+    padding: 1.5rem 0rem 1.5rem 0rem;
 }
 .quem_sou .container-fluid{
-    //background-color: red;
-    width: 80%;
+    background-color: $color_primary;
+    width: 95%;
     height: 100%;
-    padding: 0.5rem 0rem 5rem 0rem;
-
+    padding: 0.5rem 0rem 1rem 0rem;
+    box-shadow: 7px 7px 1px $color_secondary;
+    border-radius: 40px;
+    
 }
 .quem_sou .container-fluid .menu{
-    //background-color: blue;
     width: 100%;
     padding: 0.5rem;
 
 }
-.menu .navbar .container-fluid{
-    width: 95%;
-    padding: 0.5rem;
+#container-menu{
+    box-shadow: none;
+    padding: 0rem 3rem 0rem 3rem;
         
 }
 .menu .navbar .container-fluid #logo_fj{
@@ -72,7 +73,7 @@ body, html{
     flex-direction: row;
     align-items: center;
     width: 100%;
-    margin: 2rem 0rem 7rem 0rem;
+    margin: 1.5rem 1rem 5rem 1rem;
   
 }
 .quem_sou .container-fluid .infos{

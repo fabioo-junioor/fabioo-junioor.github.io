@@ -12,16 +12,18 @@ body, html {
 
 /* Section "quem sou" e "nav-menu" -----------------*/
 .quem_sou {
-  background-color: #bb83ff;
-  background-image: linear-gradient(160deg, #bb83ff 0%, #9c24ff 20%, #0c000c 50%);
+  background-color: black;
   width: 100%;
-  border-bottom: 0.1rem solid #bb83ff;
+  padding: 1.5rem 0rem 1.5rem 0rem;
 }
 
 .quem_sou .container-fluid {
-  width: 80%;
+  background-color: #6b03c0;
+  width: 95%;
   height: 100%;
-  padding: 0.5rem 0rem 5rem 0rem;
+  padding: 0.5rem 0rem 1rem 0rem;
+  box-shadow: 7px 7px 1px #64ffac;
+  border-radius: 40px;
 }
 
 .quem_sou .container-fluid .menu {
@@ -29,9 +31,9 @@ body, html {
   padding: 0.5rem;
 }
 
-.menu .navbar .container-fluid {
-  width: 95%;
-  padding: 0.5rem;
+#container-menu {
+  box-shadow: none;
+  padding: 0rem 3rem 0rem 3rem;
 }
 
 .menu .navbar .container-fluid #logo_fj {
@@ -56,7 +58,7 @@ body, html {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  margin: 2rem 0rem 7rem 0rem;
+  margin: 1.5rem 1rem 5rem 1rem;
 }
 
 .quem_sou .container-fluid .infos {
