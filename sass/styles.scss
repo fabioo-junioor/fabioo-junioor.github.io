@@ -35,7 +35,7 @@ body, html{
     background-color: $color_primary;
     width: 95%;
     height: 100%;
-    padding: 0.5rem 0rem 1rem 0rem;
+    padding: 0.5rem 3rem 1rem 3rem;
     box-shadow: 7px 7px 1px $color_secondary;
     border-radius: 40px;
     
@@ -52,7 +52,7 @@ body, html{
         
 }
 .menu .navbar .container-fluid #logo_fj{
-    height: 10.5rem;
+    height: 10rem;
     filter: drop-shadow(2px 2px 3px $color_title);
     
 }
@@ -69,6 +69,11 @@ body, html{
     border-radius: 5px;
     filter: drop-shadow(2px 2px 4px $color_title);
 
+}
+.navbar-toggler .navbar-toggler-icon:before{
+    filter: drop-shadow(0px 0px 1px $color_title);
+    font-size: 1.5rem;
+    
 }
 .quem_sou .container-fluid .informacoes{
     display: flex;
@@ -110,7 +115,7 @@ body, html{
 
 }
 .my_img img{
-    height: 26rem;
+    height: 24rem;
     
 }
 
@@ -139,8 +144,8 @@ body, html{
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-size: 2.5rem;
     font-weight: 600;
-    background-color: $color_primary;
-    box-shadow: 4px -8px 1px $color_secondary;
+    //background-color: $color_primary;
+    box-shadow: 5px 5px 1px $color_secondary;
     border-radius: 3px;
 
 }
@@ -167,13 +172,13 @@ body, html{
 }
 .tecnologias .tools_superior div, .tools_inferior div{
     padding: 0.5rem;
-    border: 2px solid white;
-    border-radius: 5px 30px;
+    margin: 0.5rem;
+    box-shadow: -4px 4px 1px $color_secondary;
 
 }
 .my_tools .tecnologias img{
     height: 9rem;
-    padding: 0.5rem;
+    padding: 1rem;
 
 }
 
@@ -203,8 +208,8 @@ body, html{
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-size: 2.5rem;
     font-weight: 600;
-    background-color: $color_primary;
-    box-shadow: 4px -8px 1px $color_secondary;
+    //background-color: $color_primary;
+    box-shadow: 5px 5px 1px $color_secondary;
     border-radius: 3px;
 
 }
@@ -404,11 +409,11 @@ body, html{
     
     }
     .quem_sou .container-fluid .my_img{
-        padding: 0.5rem 0.5rem 0rem 0.1rem;
+        padding: 0.5rem 1.5rem 0rem 0.1rem;
     
     }
     .my_img img{
-        height: 20rem;
+        height: 18rem;
         
     }
     /* Section "my-tools" ---------------------------*/
